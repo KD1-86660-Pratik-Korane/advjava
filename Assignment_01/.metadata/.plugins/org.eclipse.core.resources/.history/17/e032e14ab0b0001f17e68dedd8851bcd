@@ -1,0 +1,7 @@
+package com.sunbeam;
+
+import javax.servlet.http.HttpServlet;
+
+public class ProfileServlet extends HttpServlet{
+       
+}

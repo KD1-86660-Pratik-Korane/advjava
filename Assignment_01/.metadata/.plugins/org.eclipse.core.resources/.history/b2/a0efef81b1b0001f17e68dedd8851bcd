@@ -1,0 +1,19 @@
+package com.sunbeam;
+
+import java.util.ArrayList;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+
+import com.sunbeam.pojo.Marks;
+
+public class ResultServlet extends HttpServlet{
+       
+   private ArrayList<Marks> result;
+	   
+	   @Override
+	public void init(ServletConfig config) throws ServletException {
+		 super.init(config);
+	}
+}
